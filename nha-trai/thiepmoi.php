@@ -375,7 +375,7 @@ if (($handle = fopen("https://yenstudio.com.vn/hieu-tuyet/data/nhatrai_output.cs
         <button class="player" id="player-btn" aria-label="Play/Pause">
             <img id="iconSvg" src="../anh/cd.png" alt="Music Icon">
         </button>
-        <audio id="audio" preload="auto" src="" loop type="audio/mpeg"></audio>
+        <audio id="audio" preload="auto" src="../audio/JYJ_FOUND_YOU.mp3" loop type="audio/mpeg"></audio>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
