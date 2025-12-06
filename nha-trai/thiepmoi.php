@@ -5,7 +5,7 @@ $slug = isset($_GET['khachmoi']) ? $_GET['khachmoi'] : "";
 $title = "";
 
 // Đọc CSV
-if (($handle = fopen("data/nhatrai_output.csv", "r")) !== false) {
+if (($handle = fopen("https://yenstudio.com.vn/hieu-tuyet/data/nhatrai_output.csv", "r")) !== false) {
     $header = fgetcsv($handle); // Bỏ dòng header
     while (($row = fgetcsv($handle)) !== false) {
         if ($row[2] === $slug) {
